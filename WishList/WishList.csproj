@@ -10,6 +10,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Item\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,9 +23,13 @@
     <None Remove="Controllers\" />
     <None Remove="Data\" />
     <None Remove="Models\" />
+    <None Remove="Views\Item\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Home\Index.cshtml" />
     <Content Remove="Views\Shared\Error.cshtml" />
+    <Content Remove="Views\_ViewImports.cshtml" />
+    <Content Remove="Views\_ViewStart.cshtml" />
+    <Content Remove="Views\Item\Create.cshtml" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,13 @@
+﻿@model List<WishList.Models.Item>
+
+<h1>Wishlist</h1>
+<a asp-action="create">Add Item</a>
+<ul>
+    @foreach (var Item in Model){
+
+        <il>@Item.Description
+            <a sp-action="delete" asp-oute-id=@Item.Id>delete</a>
+        </il>
+    }
+
+</ul>
