@@ -1,12 +1,12 @@
-﻿@model List<WishList.Views.Items>
+﻿@model List<WishList.Models.Item>
 
-<h1>wishlist</h1>
-<a asp-action="create">Add item</a>
-<ul>
-    @foreach (var item in Model) {
+    <h1>wishlist</h1>
+    <a asp-action="create">Add item</a>
+    <ul>
+        @foreach (var item in Model) {
         <il>
             @item.Description
             <a asp-action="delete" asp-route-id="@item.id">delete</a>
         </il>
-    }
-</ul>
+        }
+    </ul>
