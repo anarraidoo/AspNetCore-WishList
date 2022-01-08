@@ -26,11 +26,11 @@
     <None Remove="Views\Item\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="Views\Home\Index.cshtml" />
     <Content Remove="Views\Shared\Error.cshtml" />
     <Content Remove="Views\_ViewImports.cshtml" />
     <Content Remove="Views\_ViewStart.cshtml" />
     <Content Remove="Views\Item\Create.cshtml" />
     <Content Remove="Views\Item\Index.cshtml" />
+    <Content Remove="Views\Home\Index.cshtml" />
   </ItemGroup>
 </Project>
